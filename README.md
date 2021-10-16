@@ -1,6 +1,11 @@
 # ap-preload-shortener
 This project is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.txt). This basically means you can redistribute this product with modification, for patent or private use, as long as you accredit me and keep the license on your derivation of the project. You may NOT distribute the code as closed-source. Please follow the aforementioned link for more information.
 
+## Installation
+Those who are familiar with GitHub, I'll assume you know what you're doing.
+
+Those who aren't, go to the rgiht side of the page and you'll see the Releases section. Click there, find the latest version, and click on said version. Download PreloadShortener.exe
+
 ## About
 Intended to be supplemental to Train Simulator 20XX (on Steam), this program simplies the names of all Armstrong Powerhouse preload/quick drive consist names. For those who have used these consists in scenario editing before, you'd probably know how long these names are, meaning it takes lots of time and patience to find the correct consist for your needs.
 
