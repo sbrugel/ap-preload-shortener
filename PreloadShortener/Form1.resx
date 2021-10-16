@@ -120,15 +120,4 @@
   <metadata name="folderBrowserDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <data name="textBox2.Text" xml:space="preserve">
-    <value>AP Preload Shortener made by Simon Brugel - https://www.cynxs-stuff.com/scenarios
-
-This program shortens the names of the quick drive consists of most AP products. It has been
-designed to be futureproof for future packs so you do not need to redownload this software to support 
-a new release. It should work fine with the majority of reskins that use the same naming convention
-on a no-support basis.
-
-Thanks to Ben Penhalagan for testing, and Jake Horton for creating the PowerShell file that
-this program is roughly based off of</value>
-  </data>
 </root>

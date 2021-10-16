@@ -43,7 +43,6 @@ namespace PreloadShortener
                 gameDirectory = @"C:\Program Files (x86)\Steam\steamapps\common\RailWorks";
             }
 
-            label3.Text = "PLEASE NOTE: The more AP products you have installed, the longer this program will take.";
             dirfile = startupPath + "\\local\\dir.txt"; // read the first line of the dir.txt file
             string line1 = File.ReadLines(dirfile).First();
             if (!line1.Equals(null)) // set directory if one is saved
@@ -201,7 +200,7 @@ namespace PreloadShortener
                 }
             }
             label3.Text = "Done!";
-            MessageBox.Show("Done shortening preload names! Woot!", "N!");
+            MessageBox.Show("Done shortening preload names! Woot!");
             progressBar1.Value = 0;
         }
 
