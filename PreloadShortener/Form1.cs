@@ -412,5 +412,11 @@ namespace PreloadShortener
             liveriesKey.Add("APW Class");
             liveriesNew.Add("C");
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            gameDirectory = textBox1.Text;
+            findFolders();
+        }
     }
 }
