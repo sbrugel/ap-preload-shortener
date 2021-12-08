@@ -12,8 +12,11 @@ Intended to be supplemental to Train Simulator 20XX (on Steam), this program sim
 Below is an example of a preload name before and after modification through running this program.
 ![example](https://cdn.discordapp.com/attachments/735213126567329905/805883635315507201/unknown.png)
 
+## Note
+You must ensure the railworks directory is entered in exactly this format - E:\steam\steamapps\common\RailWorks - NO SLASHES AT THE END. 
+
 ## Features
-- One click and the preloads will be shortened. The program detects your TS20xx install location through a registry key, as well as all associated AP products installed. (This directory can always be changed if needed)
+- One click and the preloads will be shortened. ~~The program detects your TS20xx install location through a registry key~~, as well as all associated AP products installed. (This directory can always be changed if needed) (registry key detection temporarily removed for the timebeing due to bugs on certain systems, hopefully back soon! AP products installed are still auto-detected however!)
 - Futureproofing for future AP addons. This program will still programatically shorten preload names of future AP products, ***without the need for a software update!*** As long as the AP naming convention remains the same (and no weird TOCs have been introduced in future packs), the program will still shorten names fine. In the case that new TOCs/name formatting changes are introduced, this program will receive an update, but for many packs introduced post-development no major problems have been noted of.
 
 ## Known Issues
