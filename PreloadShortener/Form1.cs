@@ -31,16 +31,7 @@ namespace PreloadShortener
             InitializeComponent();
 
             //get TS directory through registry
-            try
-            {
-                RegistryKey key = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\WOW6432Node\Railsimulator.com\RailWorks");
-                object objRegisteredValue = key.GetValue("EXE_Path");
-                gameDirectory = objRegisteredValue.ToString().Substring(0, objRegisteredValue.ToString().Length - 13); //remove executable name
-            }
-            catch (Exception ex)
-            {
-                gameDirectory = @"C:\Program Files (x86)\Steam\steamapps\common\RailWorks";
-            }
+            gameDirectory = @"C:\Program Files (x86)\Steam\steamapps\common\RailWorks";
             textBox1.Text = gameDirectory;
             findFolders();
         }
