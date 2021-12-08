@@ -11,10 +11,10 @@ C:\Users\sbrug\source\repos\PreloadShortener\PreloadShortener\obj\Debug\PreloadS
 C:\Users\sbrug\Documents\GitHub\ap-preload-shortener\PreloadShortener\bin\Debug\PreloadShortener.exe.config
 C:\Users\sbrug\Documents\GitHub\ap-preload-shortener\PreloadShortener\bin\Debug\PreloadShortener.exe
 C:\Users\sbrug\Documents\GitHub\ap-preload-shortener\PreloadShortener\bin\Debug\PreloadShortener.pdb
-C:\Users\sbrug\Documents\GitHub\ap-preload-shortener\PreloadShortener\obj\Debug\PreloadShortener.csprojAssemblyReference.cache
 C:\Users\sbrug\Documents\GitHub\ap-preload-shortener\PreloadShortener\obj\Debug\PreloadShortener.Form1.resources
 C:\Users\sbrug\Documents\GitHub\ap-preload-shortener\PreloadShortener\obj\Debug\PreloadShortener.Properties.Resources.resources
 C:\Users\sbrug\Documents\GitHub\ap-preload-shortener\PreloadShortener\obj\Debug\PreloadShortener.csproj.GenerateResource.cache
 C:\Users\sbrug\Documents\GitHub\ap-preload-shortener\PreloadShortener\obj\Debug\PreloadShortener.csproj.CoreCompileInputs.cache
 C:\Users\sbrug\Documents\GitHub\ap-preload-shortener\PreloadShortener\obj\Debug\PreloadShortener.exe
 C:\Users\sbrug\Documents\GitHub\ap-preload-shortener\PreloadShortener\obj\Debug\PreloadShortener.pdb
+C:\Users\sbrug\Documents\GitHub\ap-preload-shortener\PreloadShortener\obj\Debug\PreloadShortener.csproj.AssemblyReference.cache

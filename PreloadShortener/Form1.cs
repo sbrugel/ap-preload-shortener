@@ -15,7 +15,6 @@ namespace PreloadShortener
     {
         string gameDirectory;
         readonly string startupPath = Directory.GetCurrentDirectory();
-        readonly string dirfile;
 
         string[] subd = null;
 
@@ -42,14 +41,7 @@ namespace PreloadShortener
             {
                 gameDirectory = @"C:\Program Files (x86)\Steam\steamapps\common\RailWorks";
             }
-
-            dirfile = startupPath + "\\local\\dir.txt"; // read the first line of the dir.txt file
-            string line1 = File.ReadLines(dirfile).First();
-            if (!line1.Equals(null)) // set directory if one is saved
-            {
-                gameDirectory = line1;
-                textBox1.Text = gameDirectory;
-            }
+            textBox1.Text = gameDirectory;
             findFolders();
         }
         private void button2_Click(object sender, System.EventArgs e) // select folder
@@ -59,10 +51,6 @@ namespace PreloadShortener
             {
                 gameDirectory = @folderBrowserDialog1.SelectedPath;
                 textBox1.Text = gameDirectory;
-                File.WriteAllText(dirfile, String.Empty);
-                TextWriter tw = new StreamWriter(dirfile, true);
-                tw.WriteLine(gameDirectory); // save the directory in a .txt
-                tw.Close();
             }
             findFolders();
         }
